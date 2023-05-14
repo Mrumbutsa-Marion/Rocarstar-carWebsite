@@ -30,7 +30,7 @@ nav ul li{
     padding: 40px 0;
 }
 ul li a{
-    font-size: 20px;
+    font-size: 26px;
     padding-right: 57px;
     font-style: normal;
     font-weight: 100;
@@ -45,15 +45,16 @@ nav h4{
     padding: 40px 0px;
     font-weight: 500;
     margin-right: -509px;
-    font-size: 20px;
+    font-size: 26px;
 }
-button{
+nav button{
     background: rgb(246,95,8);
-    padding: 12px 29px;
+    padding: 19px 49px;
     border: 2px transparent;
-    border-radius: 9%;
+    border-radius: 9px;
     margin-right: 48px;
-    font-size: 14px;
+    font-size: 20px;
+    margin-top: -1px;
 }
 
 /*first-sectio*/
@@ -209,7 +210,7 @@ span{
     padding: auto;
     padding: 10px 30px;
     margin: 20px 50px;
-    margin-top: 98px;
+    margin-top: 198px;
 }
 .all-columns{
     margin: 2px 2px;
@@ -272,7 +273,7 @@ button{
     border: 2px solid #f65f08;
     border-radius: 8px;
     font-size: 26px;
-    margin-top: 59px;
+    margin-top: 49px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -312,6 +313,25 @@ button{
     padding: 2px 2px;
 }
 .clients img{
-    box-shadow: 0px -33px -16px -16px #f2f2f2;
-    filter: drop-shadow(-10px -60px 10px pink);
+    border: 6px solid #f2f2f2;
+    border-radius: 8px;
+    filter: drop-shadow( 10px  10px 10px 10px #f2f2f2);
+}
+.clients p{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px 29px;
+}
+.clients p:nth-child(3){
+    padding: -12px 29px;
+    margin-top: 158px;
+}
+.clients h5{
+    font-size: 26px;
+    font-weight: 500;
+    margin-left: 109px;
+}
+.clients h4{
+    font-size: 26px; 
+    padding: 40px 98px;
 }
