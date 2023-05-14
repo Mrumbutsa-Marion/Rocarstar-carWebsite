@@ -212,30 +212,36 @@ span{
     margin-top: 98px;
 }
 .all-columns{
-    margin: 2px 1px;
+    margin: 2px 2px;
     box-sizing: border-box;
     border-radius: 15px;
-    padding: 40px 0px;
+    padding: 40px 3px;
     flex-basis: 10%;
-    box-shadow: 0px 4px 6px #000;
+    border: #fff;
+    box-shadow: 0px 3px 6px black;
     max-width: -100px;
+}
+.all-columns h1{
+    font-size: 50x;
+    margin-left: 24px;
 }
 .all-columns img{
     padding: 2px 1px;
     max-width: 590px;
 }
 .icons{
-    width: 105px;
+    width: 305px;
     display: flex;
-    height: 50px;
+    height: 60px;
     justify-content: space-between;
     padding: 5px 60px;
+    margin-top: 48px;
 }
 .icons h2{
     white-space: nowrap;
-    width: 150px;
+    width: 250px;
     height: 50px;
-    font-size: 20px;
+    font-size: 28px;
     color: #000;
     text-decoration: none;
     text-align: center;
@@ -246,9 +252,9 @@ span{
 }
 .icons h3{
     white-space: nowrap;
-    width: 150px;
+    width: 250px;
     height: 50px;
-    font-size: 20px;
+    font-size: 28px;
     color: #000;
     text-decoration: none;
     text-align: center;
@@ -256,4 +262,17 @@ span{
     padding: 0px 40px;
     margin: 10px 0px;
     margin-left: -30px;
+}
+button{
+    padding: 20px 16px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 68px;
+    background: #f65f08;
+    border: 2px solid #f65f08;
+    border-radius: 8px;
+    font-size: 26px;
+    margin-top: 59px;
+    text-decoration: none;
+    font-weight: 500;
 }
