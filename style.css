@@ -472,3 +472,7 @@ button .btn{
     font-weight: 500;
     margin-top: 38px;
 }
+
+@media screen and (max-width:800px){
+    
+}
