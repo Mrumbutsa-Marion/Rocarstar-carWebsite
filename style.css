@@ -45,7 +45,7 @@ nav h4{
     list-style-type: none;
     padding: 40px 0px;
     font-weight: 500;
-    margin-right: -199px;
+    margin-right: -290px;
     font-size: 26px;
 }
 nav button{
@@ -53,7 +53,7 @@ nav button{
     padding: 19px 49px;
     border: 2px transparent;
     border-radius: 9px;
-    margin-right: 48px;
+    margin-right: 8px;
     font-size: 20px;
     margin-top: -1px;
 }
@@ -220,17 +220,19 @@ span{
     
     box-sizing: border-box;
     border-radius: 15px;
-    height: 90vh;
+    height: 80vh;
     flex-basis: 10%;
     border: #fff;
     box-shadow: 0px 3px 1px  black;
 }
 .all-columns h1{
+    margin-top: -9px;
     font-size: 3em;
     margin-left: 24px;
 }
 .all-columns img{
     max-width: 448px;
+    background-color: transparent;
 }
 .icons{
     width: 305px;
@@ -287,7 +289,7 @@ button{
     height: 100vh;
 }
 .top-cont{
-    margin-top: 98px;
+    margin-top: -198px;
     margin: auto;
     padding: 100px;
     margin-left: 1px;
@@ -349,7 +351,7 @@ button{
     margin-top: 300px;
     width: 90%;
     height: 60vh;
-    background: rgb(255, 250, 244);
+    background: #f2f2f2;
     box-shadow: 0px 5px 8px;
     padding: 10px 280px;
     margin-left: 100px;
@@ -388,395 +390,13 @@ button{
 .car-bronchure img{
     float: right;
     margin-right: -198px;
-    margin-top: -572px;
+    margin-top: -590px;
 }
 
-/*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    height: 2888px;
-    max-width:100%;
-    
-    
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    padding-left: 78px;
-    padding-right: 78px;
-    border-bottom: solid black;
-    border-width: calc(3px = 0.1vw);
-}
-.navlogo{
-    font-size: 39px;
-    font-weight: 550;
-}
-nav ul li{
-    display: inline-block;
-    width: 15px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-right: 88px;
-    padding: 40px 0;
-}
-ul li a{
-    font-size: 26px;
-    padding-right: 57px;
-    font-style: normal;
-    font-weight: 100;
-    color: black;
-}
-a{
-    text-decoration: none;
-}
-nav h4{
-    display: inline-block;
-    list-style-type: none;
-    padding: 40px 0px;
-    font-weight: 500;
-    margin-right: -509px;
-    font-size: 26px;
-}
-nav button{
-    background: rgb(246,95,8);
-    padding: 19px 49px;
-    border: 2px transparent;
-    border-radius: 9px;
-    margin-right: 48px;
-    font-size: 20px;
-    margin-top: -1px;
-}
-
-/*first-sectio*/
-/*.First-page{
+/*footer*/
+.footer{
     width: 100%;
-    height: 100vh;
-    padding: 0 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    min-height: 200vh;
 }
-.first-section{
-    width: 550px;
-    height: 600px;
-}
-.first-section h1{
-    font-size: 71px;
-    font-weight: 700;
-    margin-top: 150px;
-
-}
-.first-section h2{
-    padding: 20px 0px;
-    font-size: 25px;
-    font-weight: 530;
-    white-space: nowrap;
-}
-.buttons{
-    width: 375px;
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
-    padding: 20px 0px;
-    margin-top:59px ;
-}
-.buttons a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 70px;
-    background: #f65f08;
-    border: 0px solid black;
-    border-radius: 3px;
-    font-size: 25px;
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 30px;
-    margin-right: 98px;
-    
-}
-.buttons a:nth-child(2){
-    background: transparent;
-    color: #f65f08;
-    border: 2px solid #f65f08;
-    margin-right: -169px;
-}
-.first-sectio-img{
-    width: 900px;
-    height: 800px;
-    margin-top: 100px;
-    background-color: #fff;
-    box-shadow: 0px 3px 8px black;
-    z-index: 2;
-}
-.first-sectio-img img{
-    margin-top: -00px;
-    margin-left: -300px;
-    z-index: 6;
-}
-
-/*section two*/
-/*.sec-twofirstpart{
-    width: 100%;
-    height: 250vh;
-}
-.section2-btn{
-    width: 395px;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 60px 90px;
-}
-.sec-twofirstpart h1{
-    margin-left: 98px;
-    padding: 30px 2px;
-    font-size: 50px;
-    margin-top: 58px;
-}
-.section2-btn a{
-    display: inline-flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-    height: 70px;
-    background: #f65f08;
-    border: 2px solid black;
-    border-radius: 9px;
-    font-size: 30px;
-    color:black;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 10px 60px;
-    margin: 0 1px;
-    margin-right: 48px;
-
-}
-.section2-btn a:nth-child(2){
-    background: transparent;
-    border: #fff;
-    box-shadow: 0px 3px 8px black;
-}
-.section2-btn a:nth-child(3){
-    background: transparent;
-    border: #fff;
-    box-shadow: 0px 3px 8px black;
-}
-.section2-btn a:nth-child(4){
-    background: transparent;
-    border: #fff;
-    box-shadow: 0px 3px 8px black;
-}
-.section2-btn a:nth-child(5){
-    background: transparent;
-    border: #fff;
-    box-shadow: 0px 3px 8px black;
-}
-.section2-btn a:nth-child(6){
-    background: transparent;
-    border: #fff;
-    box-shadow: 0px 3px 8px black;
-    white-space: nowrap;
-    letter-spacing: 2px;
-}
-.section2-btn img{
-    display: flex;
-    width: 50px;
-    padding: 20px opx;
-    margin: 0 10px;
-    margin-left: -48px;
-}
-span{
-    color: #f65f08;
-}
-/*rows*/
-/*.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: auto;
-    padding: 10px 30px;
-    margin: 20px 50px;
-    margin-top: 198px;
-}
-.all-columns{
-    margin: 2px 2px;
-    box-sizing: border-box;
-    border-radius: 15px;
-    padding: 40px 3px;
-    flex-basis: 10%;
-    border: #fff;
-    box-shadow: 0px 3px 6px black;
-    max-width: -100px;
-}
-.all-columns h1{
-    font-size: 50x;
-    margin-left: 24px;
-}
-.all-columns img{
-    padding: 2px 1px;
-    max-width: 590px;
-}
-.icons{
-    width: 305px;
-    display: flex;
-    height: 60px;
-    justify-content: space-between;
-    padding: 5px 60px;
-    margin-top: 48px;
-}
-.icons h2{
-    white-space: nowrap;
-    width: 250px;
-    height: 50px;
-    font-size: 28px;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 500;
-    padding: 0px 40px;
-    margin: 10px 0px;
-    margin-left: -30px;
-}
-.icons h3{
-    white-space: nowrap;
-    width: 250px;
-    height: 50px;
-    font-size: 28px;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    font-weight: 500;
-    padding: 0px 40px;
-    margin: 10px 0px;
-    margin-left: -30px;
-}
-button{
-    padding: 20px 16px;
-    display: inline-flex;
-    align-items: center;
-    margin-left: 68px;
-    background: #f65f08;
-    border: 2px solid #f65f08;
-    border-radius: 8px;
-    font-size: 26px;
-    margin-top: 49px;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-/*section three*/
-/*.third-section{
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-}
-.top-cont{
-    margin: auto;
-    padding: 100px;
-    margin-left: 1px;
-}
-.top-cont h1{
-    color: black;
-    font-size: 70px;
-    font-weight: 600;
-    font-style: normal;
-}
-.top-cont p{
-    color: black;
-    font-size: 35px;
-    font-weight: 500;
-    font-style: normal;
-}
-.satisfied_clients{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.clients{
-    overflow: hidden;
-    margin-left: 88px;
-    margin-right: 58px;
-    padding: 2px 2px;
-}
-.clients img{
-    border: 6px solid #f2f2f2;
-    border-radius: 8px;
-    filter: drop-shadow( 10px  10px 10px 10px #f2f2f2);
-}
-.clients p{
-    font-size: 25px;
-    font-weight: 500;
-    padding: 2px 29px;
-}
-.clients p:nth-child(3){
-    padding: -12px 29px;
-    margin-top: 158px;
-}
-.clients h5{
-    font-size: 26px;
-    font-weight: 500;
-    margin-left: 109px;
-}
-.clients h4{
-    font-size: 26px; 
-    padding: 40px 98px;
-}
-/*Section four*/
-/*.section-four{
-    width: 100%;
-    height: 60vh;
-}
-.fourth-content{
-    margin-top: 98px;
-    width: 90%;
-    height: 50vh;
-    background: rgb(255, 250, 244);
-    box-shadow: 0px 5px 8px;
-    padding: 10px 280px;
-    margin-left: 100px;
-}
-.fourth-content h1{
-    padding: 30px;
-    font-size: 60px;
-}
-
-.fourth-content h2{
-    padding: 0 38px;
-    font-size: 30px;
-    font-weight: 500;
-}
-.googleservices{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: -135px;
-    margin-right: 968px;
-    padding: 2px;
-}
-.googleservices img{
-    float: left;
-    margin-top: -68px;
-}
-.googleservices img:nth-child(2){
-    margin-left: -126px;
-}
-.car-bronchure img{
-    float: right;
-    padding: 20px 98px;
-    margin-top: -612px;
-}
-@media screen and (max-width: 320px) { 
-
-/*Write your css here*/
 
 
