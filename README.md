@@ -11,7 +11,7 @@
 ---
 # **Description**
 ### **This is a project that demonstrates an understanding of css and html. The basic styling styles and some of the elements. The image below is a guide on what one is supposed to create**
-
+![plot](./images/Landing-page.png)
 ---
 # **Set-Up**
 ## Requirements
