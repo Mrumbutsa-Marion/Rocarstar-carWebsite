@@ -45,17 +45,25 @@ nav h4{
     list-style-type: none;
     padding: 40px 0px;
     font-weight: 500;
-    margin-right: -290px;
+    margin-right: -330px;
     font-size: 26px;
 }
 nav button{
     background: rgb(246,95,8);
-    padding: 19px 49px;
-    border: 2px transparent;
+    /*border: 2px transparent;*/
     border-radius: 9px;
     margin-right: 8px;
     font-size: 20px;
     margin-top: -1px;
+    text-align: center;
+    
+}
+.btn{
+    width: 150px;
+    padding: 10px 5px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
 }
 
 /*first-sectio*/
@@ -212,7 +220,7 @@ span{
     justify-content: space-between;
     align-items: center;
     padding: auto;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin: 20px 20px;
     margin-top: 200px;
 }
@@ -223,7 +231,9 @@ span{
     height: 80vh;
     flex-basis: 10%;
     border: #fff;
-    box-shadow: 0px 3px 1px  black;
+    box-shadow:  #c9c9c9 0px -0px 2px 0px;
+    border-top: solid 3px #c9c9c9;
+    border-bottom: solid 5px #c9c9c9;
 }
 .all-columns h1{
     margin-top: -9px;
@@ -268,17 +278,17 @@ span{
     margin-left: -30px;
 }
 button{
-    padding: 20px 16px;
+    padding: 15px 16px;
     display: inline-flex;
     align-items: center;
     margin-left: 68px;
     background: #f65f08;
     border: 2px solid #f65f08;
     border-radius: 8px;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-top: 39px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 38px;
 }
 
@@ -320,12 +330,13 @@ button{
     margin-left: 70px;
     margin-right: 8px;
     padding: 2px px;
+    
 }
 .clients img{
     max-width: 380px;
-    border: 6px solid #f2f2f2;
     border-radius: 8px;
-    filter: drop-shadow( 10px  10px 10px 10px #f2f2f2);
+    box-shadow:  #c9c9c9 0px -4px 1px 0px;
+    /*filter: drop-shadow( 1px  -10px -10px -10px black);*/
 }
 .clients p{
     font-size: 18px;
@@ -350,7 +361,8 @@ button{
     margin-top: 300px;
     width: 90%;
     height: 60vh;
-    background: #f2f2f2;
+    border-radius: 8px;
+    background: #fffaf4;
     box-shadow: 0px 5px 8px;
     padding: 10px 280px;
     margin-left: 88px;
@@ -402,6 +414,7 @@ button{
 .container{
     width: 100%;
     margin-top: 400px;
+    padding: 1px 20px;
 }
 .lists{
     display: flex;
@@ -423,7 +436,6 @@ button{
 
 }
 .footer-one ul li{
-    
     white-space: nowrap;
     margin-left: -318px;
 }
@@ -438,7 +450,7 @@ input{
     background: transparent;
     color: #f65f08;
     border: 2px solid #f65f08;
-    margin-left: -98px;
+    margin-left: -75px;
     
 }
 .one{
@@ -456,20 +468,18 @@ input{
     margin-top: -29px;
 
 }
-button .btn{
-    width: 800px;
-    padding: 20px 16px;
-    display: inline-flex;
-    align-items: center;
-    margin-left: 68px;
-    background: #f65f08;
+.submit{
+    width: 150px;
+    padding: 10px 15px;
+    margin-left: 100px;
     border: 2px solid #f65f08;
     border-radius: 8px;
     font-size: 1em;
     margin-top: 39px;
-    text-decoration: none;
-    font-weight: 500;
+    font-weight: 550;
     margin-top: 38px;
+    text-align: center;
+    display: inline-block;
 }
 
 @media screen and (max-width:800px){
