@@ -171,27 +171,27 @@ nav button{
 .section2-btn a:nth-child(2){
     background: transparent;
     border: #fff;
-    box-shadow: 0px 3px 8px black;
+    box-shadow: 0px 0px 2px;
 }
 .section2-btn a:nth-child(3){
     background: transparent;
     border: #fff;
-    box-shadow: 0px 3px 8px black;
+    box-shadow: 0px 0px 2px;
 }
 .section2-btn a:nth-child(4){
     background: transparent;
     border: #fff;
-    box-shadow: 0px 3px 8px black;
+    box-shadow: 0px 0px 2px;
 }
 .section2-btn a:nth-child(5){
     background: transparent;
     border: #fff;
-    box-shadow: 0px 3px 8px black;
+    box-shadow: 0px 0px 2px;
 }
 .section2-btn a:nth-child(6){
     background: transparent;
     border: #fff;
-    box-shadow: 0px 3px 8px black;
+    box-shadow: 0px 0px 2px;
     white-space: nowrap;
     letter-spacing: 2px;
 }
@@ -232,7 +232,6 @@ span{
 }
 .all-columns img{
     max-width: 448px;
-    background-color: transparent;
 }
 .icons{
     width: 305px;
